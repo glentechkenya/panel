@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlenTech Kenya Ban Method</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>GlenTech Kenya, Ban Method</h1>
+    </header>
+    <main>
+        <video autoplay muted loop class="matrix-background">
+            <source src="assets/matrix-rain.mp4" type="video/mp4">
+        </video>
+        <div class="matrix-rain">
+            <div class="stream"></div>
+            <div class="stream"></div>
+            <div class="stream"></div>
+            <div class="stream"></div>
+            <div class="stream"></div>
+        </div>
+        <h2>Initiate Ban</h2>
+        <form id="ban-form">
+            <label for="number">Number to Ban:</label>
+            <input type="text" id="number" name="number" required>
+
+            <div class="ban-options">
+                <label>
+                    <input type="radio" name="ban-type" value="temporary" required>
+                    Temporary Ban
+                </label>
+                <label>
+                    <input type="radio" name="ban-type" value="permanent" required>
+                    Permanent Ban
+                </label>
+            </div>
+
+            <button type="submit">Initiate Ban</button>
+        </form>
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
